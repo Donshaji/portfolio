@@ -161,11 +161,12 @@
   top: 184px;
 }
 .dise-o {
-  color: linear-gradient(
-    268.86deg,
-    rgba(254, 142, 1, 1) 0%,
-    rgba(254, 195, 0, 1) 100%
-  );
+  background: linear-gradient(180deg, rgb(254, 142, 1) 0%, rgb(254, 195, 0) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  color: transparent;
   text-align: left;
   font-family: "PlusJakartaSans-ExtraBold", sans-serif;
   font-size: 130px;
